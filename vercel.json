@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": ["SUPABASE_JWT_SECRET", "SUPABASE_POSTGRES_URL"]
+}
